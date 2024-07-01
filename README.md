@@ -8,4 +8,4 @@ the interfacing with the RISC-V core and data management between the neural tile
 RISC-V SoC memory. The neural tile implementation has to be developed using RTL
 targeting Xilinx FPGA devices.
 
-![NPU](https://github.com/habibaouinti/NPU_X_Interface/assets/123462058/3458408a-4ab3-4385-aeeb-68f471341602)
+![NPU](https://github.com/habibaouinti/NPU_X_Interface/assets/123462058/3e0f4898-6ead-4924-a1e3-622520aadf86)
