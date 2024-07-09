@@ -35,9 +35,9 @@ The coprocessors main module is named coprocessor and can be found in [coprocess
 | `Control Unit`          | Control Unit serves as the manager and coordinater the operations of all other components.  | [ctrl_unit.sv](RTL/Ctrl_Unit/ctrl_unit.sv) |
 | `SRAM Top Unit`         | The internal memory of the NPU, comprising three distinct SRAMs: Inputs SRAM, Weights SRAM and Psums SRAMs. | [sram_top.sv](RTL/SRAMs_Unit/sram_top.sv)|
 | `Im2Col Unit`           | Custom Image to Column Unit | [inputs_unit.sv](RTL/Im2Col_Unit/inputs_unit.sv)      |
-| `Weights Unit`          | Custom Weights to Columns Unit | [weights_unit.sv](RTL/WeightsUnit/weights_unit.sv)                                                 |
-| `Systolic Array Unit`   | Main porcessing unit | [sa.sv](RTL/Systolic Array/sa.sv)            |
-| `Psum Manager Unit`     | Partial sums manager from Systolic Array to SRAMs | [psum_manager.sv](RTL/Psum Manager/psum_manager.sv)                                                             |
+| `Weights Unit`          | Custom Weights to Columns Unit | [weights_unit.sv](RTL/Weights_Unit/weights_unit.sv)                                                 |
+| `Systolic Array Unit`   | Main porcessing unit | [sa.sv](RTL/Systolic_Array/sa.sv)            |
+| `Psum Manager Unit`     | Partial sums manager from Systolic Array to SRAMs | [psum_manager.sv](RTL/Psum_Manager/psum_manager.sv)                                                             |
 
 # PE Unit
 ![pe](https://github.com/habibaouinti/NPU_X_Interface/assets/123462058/5d0abf7a-c7fc-4b2d-8f8d-20a4676d4906)
