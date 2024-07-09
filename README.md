@@ -15,9 +15,16 @@ The NPU is a Co-processor extending the cv32e40x core through the eXtension Inte
 # Integration
 The coprocessors main module is named coprocessor and can be found in [coprocessor.sv](RTL/coprocessor.sv). 
 ### Integration Template
- 
-
-	);
+      coprocessor copro0 (
+        .clk_i          (  ),
+        .rst_ni         (  ),
+        .xif_compressed (  ),
+        .xif_issue      (  ),
+        .xif_commit     (  ),
+        .xif_mem        (  ),
+        .xif_mem_result (  ),
+        .xif_result     (  )
+    );
 
 ## List of Modules
 
