@@ -33,9 +33,9 @@ The coprocessors main module is named coprocessor and can be found in [coprocess
 | `coprocessor`                       | Top level module and includes the Memory Fetch/Store Unit                                                                                                                                                                                  | [coprocessor.sv](RTL/coprocessor.sv)                                                                         |
 | `Decoder Unit` | Decides when and if an offload attempt from the core is accepted or not and stores the register files | [co_decoder.sv](RTL/co_decoder.sv)       |
 | `Control Unit`          | Control Unit serves as the manager and coordinater the operations of all other components.  | [ctrl_unit.sv](RTL/Ctrl_Unit/ctrl_unit.sv) |
-| `SRAM Top Unit`         | The internal memory of the NPU, comprising three distinct SRAMs: Inputs SRAM, Weights SRAM and Psums SRAMs. | [sram_top.sv](RTL/SRAMs Unit/sram_top.sv)|
-| `Im2Col Unit`           | Custom Image to Column Unit | [inputs_unit.sv](RTL/Im2Col Unit/inputs_unit.sv)      |
-| `Weights Unit`          | Custom Weights to Columns Unit | [weights_unit.sv](RTL/Weights Unit/weights_unit.sv)                                                 |
+| `SRAM Top Unit`         | The internal memory of the NPU, comprising three distinct SRAMs: Inputs SRAM, Weights SRAM and Psums SRAMs. | [sram_top.sv](RTL/SRAMs_Unit/sram_top.sv)|
+| `Im2Col Unit`           | Custom Image to Column Unit | [inputs_unit.sv](RTL/Im2Col_Unit/inputs_unit.sv)      |
+| `Weights Unit`          | Custom Weights to Columns Unit | [weights_unit.sv](RTL/WeightsUnit/weights_unit.sv)                                                 |
 | `Systolic Array Unit`   | Main porcessing unit | [sa.sv](RTL/Systolic Array/sa.sv)            |
 | `Psum Manager Unit`     | Partial sums manager from Systolic Array to SRAMs | [psum_manager.sv](RTL/Psum Manager/psum_manager.sv)                                                             |
 
