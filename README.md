@@ -9,9 +9,9 @@ RISC-V SoC memory. The neural tile implementation has to be developed using RTL
 targeting Xilinx FPGA devices.
 # SoC Architecture
 The NPU is a Co-processor extending the cv32e40x core through the eXtension Interface
-[soc.pdf](https://github.com/user-attachments/files/17035490/soc.pdf)
+![SoC](https://github.com/user-attachments/assets/bc3e9c3d-7808-4f43-b18b-357d6055ad87)
 # NPU Architecture
-[SYS.pdf](https://github.com/user-attachments/files/17035494/SYS.pdf)
+![npu](https://github.com/user-attachments/assets/1e5984c7-5ef7-4ee3-b91f-b1e220b42086)
 # Integration
 The coprocessors main module is named coprocessor and can be found in [coprocessor.sv](RTL/coprocessor.sv). 
 ### Integration Template
